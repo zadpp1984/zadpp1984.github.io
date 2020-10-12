@@ -11,7 +11,8 @@ public static void main(String args[]) {
 
 //業務処理
 public void m(){
-  throw new RuntimeException("This is a business error!!")
+  異常コード＝999;
+  throw new RuntimeException("This is a business error!!");
 }
 ```
 
